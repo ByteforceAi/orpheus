@@ -1,0 +1,5 @@
+# ORPHEUS web (live demo) dependencies — used by the FastAPI app / Docker image.
+rdkit>=2024.3
+anthropic>=0.40
+fastapi>=0.110
+uvicorn[standard]>=0.29

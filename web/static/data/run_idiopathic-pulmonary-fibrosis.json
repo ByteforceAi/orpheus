@@ -1,0 +1,58 @@
+{
+  "run_id": "bba2d509ed72",
+  "mode": "offline-deterministic",
+  "model": "claude-sonnet-4-6",
+  "disease": "Idiopathic Pulmonary Fibrosis",
+  "disease_targets": [
+    "PDGFRB",
+    "FGFR1",
+    "LOXL2"
+  ],
+  "iterations": 4,
+  "status": "no_viable_candidate",
+  "converged": false,
+  "best_candidate": null,
+  "trace": [
+    {
+      "iteration": 0,
+      "n_hypotheses": 0,
+      "top_hits": [],
+      "n_scored": 0,
+      "n_survivors": 0,
+      "converged": false,
+      "success": false,
+      "critic": "가설 단계에서 타깃 겹침이 없어 후보 없음 → 대체 타깃 탐색 지시."
+    },
+    {
+      "iteration": 1,
+      "n_hypotheses": 0,
+      "top_hits": [],
+      "n_scored": 0,
+      "n_survivors": 0,
+      "converged": false,
+      "success": false,
+      "critic": "가설 단계에서 타깃 겹침이 없어 후보 없음 → 대체 타깃 탐색 지시."
+    },
+    {
+      "iteration": 2,
+      "n_hypotheses": 0,
+      "top_hits": [],
+      "n_scored": 0,
+      "n_survivors": 0,
+      "converged": false,
+      "success": false,
+      "critic": "가설 단계에서 타깃 겹침이 없어 후보 없음 → 대체 타깃 탐색 지시."
+    },
+    {
+      "iteration": 3,
+      "n_hypotheses": 0,
+      "top_hits": [],
+      "n_scored": 0,
+      "n_survivors": 0,
+      "converged": true,
+      "success": false,
+      "critic": "반복 예산 소진 — 현재까지 최선 후보 반환(부분 성공)."
+    }
+  ],
+  "ledger_path": "/mnt/c/dev/orpheus/orpheus/artifacts/bba2d509ed72/ledger.jsonl"
+}

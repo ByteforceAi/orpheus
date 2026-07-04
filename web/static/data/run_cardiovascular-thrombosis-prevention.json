@@ -1,0 +1,57 @@
+{
+  "run_id": "0ebdc322501a",
+  "mode": "offline-deterministic",
+  "model": "claude-sonnet-4-6",
+  "disease": "Cardiovascular Thrombosis Prevention",
+  "disease_targets": [
+    "PTGS1",
+    "PTGS2",
+    "F2"
+  ],
+  "iterations": 1,
+  "status": "converged",
+  "converged": true,
+  "best_candidate": {
+    "drug": "Ibuprofen",
+    "is_parent_approved_drug": true,
+    "smiles": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+    "target": "PTGS1",
+    "affinity_surrogate_pKi": 10.09,
+    "affinity_is_surrogate": true,
+    "descriptors": {
+      "MW": 206.3,
+      "logP": 3.07,
+      "HBD": 1,
+      "HBA": 1,
+      "TPSA": 37.3,
+      "RotB": 4,
+      "QED": 0.822,
+      "SA_score": 2.19
+    },
+    "admet_pass": true,
+    "admet_failed_rules": [],
+    "structural_alerts": [],
+    "clinical_feasibility": 0.882,
+    "clinical_risk": "낮음",
+    "clinical_notes": "라벨 확장 / 기존 안전성·PK 활용 (신규 IND 불필요 가능성). QED=0.822, 구조경보 0건. 대상 타깃 PTGS1.",
+    "hypothesis_confidence": 0.85,
+    "overall_score": 0.8446
+  },
+  "trace": [
+    {
+      "iteration": 0,
+      "n_hypotheses": 4,
+      "top_hits": [
+        "Aspirin",
+        "Ibuprofen",
+        "Acetaminophen"
+      ],
+      "n_scored": 15,
+      "n_survivors": 15,
+      "converged": true,
+      "success": true,
+      "critic": "수렴: 'Ibuprofen'가 모든 게이트를 통과하고 임상 타당성 0.882 확보."
+    }
+  ],
+  "ledger_path": "/mnt/c/dev/orpheus/orpheus/artifacts/0ebdc322501a/ledger.jsonl"
+}

@@ -1,0 +1,12 @@
+{
+  "_comment": "Seed disease -> associated target (gene symbol) map. In production, swap for Open Targets / DisGeNET associations. Targets listed are mechanistically plausible drivers used for repurposing hypothesis generation.",
+  "diseases": [
+    {"name": "Pulmonary Arterial Hypertension",         "targets": ["PDE5A", "NOS3", "EDNRA", "GUCY1A1"], "notes": "NO-cGMP / endothelin axis; PDE5 inhibition raises cGMP -> vasodilation."},
+    {"name": "Multiple Myeloma",                        "targets": ["CRBN", "TNF", "NFKB1", "PSMB5"],     "notes": "Cereblon-dependent immunomodulation; proteasome dependence."},
+    {"name": "Infantile Hemangioma",                    "targets": ["ADRB2", "ADRB1", "VEGFA"],           "notes": "Beta-adrenergic signaling drives proliferative endothelium."},
+    {"name": "Cardiovascular Thrombosis Prevention",    "targets": ["PTGS1", "PTGS2", "F2"],              "notes": "COX-1 mediated thromboxane -> platelet aggregation."},
+    {"name": "Cushing Syndrome",                        "targets": ["CYP17A1", "CYP11B1", "NR3C1"],       "notes": "Adrenal steroidogenesis; CYP17A1 inhibition lowers cortisol."},
+    {"name": "Gout Flare",                              "targets": ["NLRP3", "TUBB", "XDH"],              "notes": "NLRP3 inflammasome; microtubule-dependent neutrophil response."},
+    {"name": "Idiopathic Pulmonary Fibrosis",           "targets": ["PDGFRB", "FGFR1", "LOXL2"],          "notes": "Distractor disease with no clean seed-drug overlap (tests precision)."}
+  ]
+}

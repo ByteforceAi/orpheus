@@ -1,0 +1,59 @@
+{
+  "run_id": "0a672e206943",
+  "mode": "offline-deterministic",
+  "model": "claude-sonnet-4-6",
+  "disease": "Cushing Syndrome",
+  "disease_targets": [
+    "CYP17A1",
+    "CYP11B1",
+    "NR3C1"
+  ],
+  "iterations": 1,
+  "status": "converged",
+  "converged": true,
+  "best_candidate": {
+    "drug": "Ketoconazole",
+    "is_parent_approved_drug": true,
+    "smiles": "CC(=O)N1CCN(c2ccc(OCC3COC(Cn4ccnc4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1",
+    "target": "CYP17A1",
+    "affinity_surrogate_pKi": 9.89,
+    "affinity_is_surrogate": true,
+    "descriptors": {
+      "MW": 531.4,
+      "logP": 4.21,
+      "HBD": 0,
+      "HBA": 6,
+      "TPSA": 69.1,
+      "RotB": 7,
+      "QED": 0.455,
+      "SA_score": 3.44
+    },
+    "admet_pass": true,
+    "admet_failed_rules": [
+      "mw<=500"
+    ],
+    "structural_alerts": [
+      "anil_di_alk_C(246)"
+    ],
+    "clinical_feasibility": 0.776,
+    "clinical_risk": "낮음",
+    "clinical_notes": "라벨 확장 / 기존 안전성·PK 활용 (신규 IND 불필요 가능성). QED=0.455, 구조경보 1건. 대상 타깃 CYP17A1.",
+    "hypothesis_confidence": 0.6,
+    "overall_score": 0.6539
+  },
+  "trace": [
+    {
+      "iteration": 0,
+      "n_hypotheses": 1,
+      "top_hits": [
+        "Ketoconazole"
+      ],
+      "n_scored": 5,
+      "n_survivors": 5,
+      "converged": true,
+      "success": true,
+      "critic": "수렴: 'Ketoconazole'가 모든 게이트를 통과하고 임상 타당성 0.776 확보."
+    }
+  ],
+  "ledger_path": "/mnt/c/dev/orpheus/orpheus/artifacts/0a672e206943/ledger.jsonl"
+}

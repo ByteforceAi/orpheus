@@ -1,0 +1,34 @@
+{
+  "mode": "replay",
+  "generated_at": "2026-07-04T01:16:24.493412+00:00",
+  "diseases": [
+    {
+      "name": "Pulmonary Arterial Hypertension",
+      "slug": "pulmonary-arterial-hypertension"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "slug": "multiple-myeloma"
+    },
+    {
+      "name": "Infantile Hemangioma",
+      "slug": "infantile-hemangioma"
+    },
+    {
+      "name": "Cardiovascular Thrombosis Prevention",
+      "slug": "cardiovascular-thrombosis-prevention"
+    },
+    {
+      "name": "Cushing Syndrome",
+      "slug": "cushing-syndrome"
+    },
+    {
+      "name": "Gout Flare",
+      "slug": "gout-flare"
+    },
+    {
+      "name": "Idiopathic Pulmonary Fibrosis",
+      "slug": "idiopathic-pulmonary-fibrosis"
+    }
+  ]
+}

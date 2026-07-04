@@ -1,0 +1,21 @@
+{
+  "_comment": "Seed approved-drug library. SMILES are RDKit-validated. Targets are gene symbols (primary/well-known). This is a small demonstration seed; swap for ChEMBL/DrugBank at 본선 scale.",
+  "drugs": [
+    {"name": "Aspirin",        "smiles": "CC(=O)Oc1ccccc1C(=O)O",                                        "targets": ["PTGS1", "PTGS2"],          "original_indication": "analgesic / anti-inflammatory"},
+    {"name": "Ibuprofen",      "smiles": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",                                   "targets": ["PTGS1", "PTGS2"],          "original_indication": "analgesic / NSAID"},
+    {"name": "Acetaminophen",  "smiles": "CC(=O)Nc1ccc(O)cc1",                                           "targets": ["PTGS2", "PTGS1"],          "original_indication": "analgesic / antipyretic"},
+    {"name": "Caffeine",       "smiles": "Cn1cnc2c1c(=O)n(C)c(=O)n2C",                                   "targets": ["ADORA2A", "PDE4B"],        "original_indication": "CNS stimulant"},
+    {"name": "Metformin",      "smiles": "CN(C)C(=N)NC(=N)N",                                            "targets": ["PRKAB1", "ETFDH"],         "original_indication": "type 2 diabetes"},
+    {"name": "Salbutamol",     "smiles": "CC(C)(C)NCC(O)c1ccc(O)c(CO)c1",                                "targets": ["ADRB2"],                   "original_indication": "asthma bronchodilator"},
+    {"name": "Propranolol",    "smiles": "CC(C)NCC(O)COc1cccc2ccccc12",                                  "targets": ["ADRB1", "ADRB2"],          "original_indication": "hypertension / arrhythmia"},
+    {"name": "Sildenafil",     "smiles": "CCCc1nn(C)c2c1nc([nH]c2=O)-c1cc(S(=O)(=O)N2CCN(C)CC2)ccc1OCC", "targets": ["PDE5A", "PDE6D"],          "original_indication": "erectile dysfunction / angina"},
+    {"name": "Warfarin",       "smiles": "CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O",                        "targets": ["VKORC1"],                  "original_indication": "anticoagulant"},
+    {"name": "Diazepam",       "smiles": "CN1c2ccc(Cl)cc2C(=NCC1=O)c1ccccc1",                            "targets": ["GABRA1", "TSPO"],          "original_indication": "anxiolytic / sedative"},
+    {"name": "Fluoxetine",     "smiles": "CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",                           "targets": ["SLC6A4"],                  "original_indication": "major depressive disorder"},
+    {"name": "Thalidomide",    "smiles": "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1",                          "targets": ["CRBN", "PTGS2"],           "original_indication": "sedative / antiemetic"},
+    {"name": "Minoxidil",      "smiles": "Nc1cc(N2CCCCC2)nc(N)[n+]1[O-]",                                "targets": ["KCNJ11", "ABCC9"],         "original_indication": "hypertension"},
+    {"name": "Duloxetine",     "smiles": "CNCCC(Oc1cccc2ccccc12)c1cccs1",                                "targets": ["SLC6A4", "SLC6A2"],        "original_indication": "depression / neuropathic pain"},
+    {"name": "Ketoconazole",   "smiles": "CC(=O)N1CCN(c2ccc(OCC3COC(Cn4ccnc4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1", "targets": ["CYP51A1", "CYP17A1", "CYP3A4"], "original_indication": "antifungal"},
+    {"name": "Colchicine",     "smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1C(NC(C)=O)CC2",           "targets": ["TUBB", "NLRP3"],           "original_indication": "gout / familial Mediterranean fever"}
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "14ad372ec252",
+  "mode": "offline-deterministic",
+  "model": "claude-sonnet-4-6",
+  "disease": "Multiple Myeloma",
+  "disease_targets": [
+    "CRBN",
+    "TNF",
+    "NFKB1",
+    "PSMB5"
+  ],
+  "iterations": 1,
+  "status": "converged",
+  "converged": true,
+  "best_candidate": {
+    "drug": "Thalidomide",
+    "is_parent_approved_drug": true,
+    "smiles": "O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1",
+    "target": "CRBN",
+    "affinity_surrogate_pKi": 10.4,
+    "affinity_is_surrogate": true,
+    "descriptors": {
+      "MW": 258.2,
+      "logP": 0.09,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 83.6,
+      "RotB": 1,
+      "QED": 0.723,
+      "SA_score": 2.6
+    },
+    "admet_pass": true,
+    "admet_failed_rules": [],
+    "structural_alerts": [
+      "phthalimide"
+    ],
+    "clinical_feasibility": 0.802,
+    "clinical_risk": "낮음",
+    "clinical_notes": "라벨 확장 / 기존 안전성·PK 활용 (신규 IND 불필요 가능성). QED=0.723, 구조경보 1건. 대상 타깃 CRBN.",
+    "hypothesis_confidence": 0.588,
+    "overall_score": 0.7296
+  },
+  "trace": [
+    {
+      "iteration": 0,
+      "n_hypotheses": 1,
+      "top_hits": [
+        "Thalidomide"
+      ],
+      "n_scored": 5,
+      "n_survivors": 5,
+      "converged": true,
+      "success": true,
+      "critic": "수렴: 'Thalidomide'가 모든 게이트를 통과하고 임상 타당성 0.802 확보."
+    }
+  ],
+  "ledger_path": "/mnt/c/dev/orpheus/orpheus/artifacts/14ad372ec252/ledger.jsonl"
+}

@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "n_gold_pairs": 5,
+    "recall_at_1": 1.0,
+    "recall_at_3": 1.0,
+    "mrr": 1.0,
+    "mean_rank": 1.0
+  },
+  "rows": [
+    {
+      "drug": "Sildenafil",
+      "disease": "Pulmonary Arterial Hypertension",
+      "shared_target": "PDE5A",
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "n_candidates": 1,
+      "top3": [
+        "Sildenafil"
+      ]
+    },
+    {
+      "drug": "Thalidomide",
+      "disease": "Multiple Myeloma",
+      "shared_target": "CRBN",
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "n_candidates": 1,
+      "top3": [
+        "Thalidomide"
+      ]
+    },
+    {
+      "drug": "Propranolol",
+      "disease": "Infantile Hemangioma",
+      "shared_target": "ADRB2",
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "n_candidates": 2,
+      "top3": [
+        "Propranolol",
+        "Salbutamol"
+      ]
+    },
+    {
+      "drug": "Aspirin",
+      "disease": "Cardiovascular Thrombosis Prevention",
+      "shared_target": "PTGS1",
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "n_candidates": 4,
+      "top3": [
+        "Aspirin",
+        "Ibuprofen",
+        "Acetaminophen"
+      ]
+    },
+    {
+      "drug": "Ketoconazole",
+      "disease": "Cushing Syndrome",
+      "shared_target": "CYP17A1",
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "n_candidates": 1,
+      "top3": [
+        "Ketoconazole"
+      ]
+    }
+  ]
+}

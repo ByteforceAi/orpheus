@@ -1,0 +1,8 @@
+# ORPHEUS runtime dependencies
+rdkit>=2024.3        # cheminformatics engine (descriptors, similarity, alerts, analogs, SA)
+anthropic>=0.40      # optional: LLM enrichment when ANTHROPIC_API_KEY is set
+# stdlib only otherwise (argparse, json, dataclasses, hashlib, pathlib)
+#
+# 본선 swap-ins (not required to run the demo):
+#   - AutoDock Vina (real docking) -> replace orpheus/tools/docking.py
+#   - ChEMBL / DrugBank / Open Targets clients -> replace orpheus/core/knowledge.py

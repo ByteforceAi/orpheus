@@ -1,0 +1,56 @@
+{
+  "run_id": "5ae22b3dd632",
+  "mode": "offline-deterministic",
+  "model": "claude-sonnet-4-6",
+  "disease": "Infantile Hemangioma",
+  "disease_targets": [
+    "ADRB2",
+    "ADRB1",
+    "VEGFA"
+  ],
+  "iterations": 1,
+  "status": "converged",
+  "converged": true,
+  "best_candidate": {
+    "drug": "Propranolol",
+    "is_parent_approved_drug": true,
+    "smiles": "CC(C)NCC(O)COc1cccc2ccccc12",
+    "target": "ADRB1",
+    "affinity_surrogate_pKi": 9.96,
+    "affinity_is_surrogate": true,
+    "descriptors": {
+      "MW": 259.3,
+      "logP": 2.58,
+      "HBD": 2,
+      "HBA": 3,
+      "TPSA": 41.5,
+      "RotB": 6,
+      "QED": 0.838,
+      "SA_score": 2.3
+    },
+    "admet_pass": true,
+    "admet_failed_rules": [],
+    "structural_alerts": [],
+    "clinical_feasibility": 0.884,
+    "clinical_risk": "낮음",
+    "clinical_notes": "라벨 확장 / 기존 안전성·PK 활용 (신규 IND 불필요 가능성). QED=0.838, 구조경보 0건. 대상 타깃 ADRB1.",
+    "hypothesis_confidence": 0.85,
+    "overall_score": 0.8434
+  },
+  "trace": [
+    {
+      "iteration": 0,
+      "n_hypotheses": 2,
+      "top_hits": [
+        "Propranolol",
+        "Salbutamol"
+      ],
+      "n_scored": 10,
+      "n_survivors": 10,
+      "converged": true,
+      "success": true,
+      "critic": "수렴: 'Propranolol'가 모든 게이트를 통과하고 임상 타당성 0.884 확보."
+    }
+  ],
+  "ledger_path": "/mnt/c/dev/orpheus/orpheus/artifacts/5ae22b3dd632/ledger.jsonl"
+}

@@ -1,0 +1,56 @@
+{
+  "run_id": "1c5512aea1ed",
+  "mode": "offline-deterministic",
+  "model": "claude-sonnet-4-6",
+  "disease": "Pulmonary Arterial Hypertension",
+  "disease_targets": [
+    "PDE5A",
+    "NOS3",
+    "EDNRA",
+    "GUCY1A1"
+  ],
+  "iterations": 1,
+  "status": "converged",
+  "converged": true,
+  "best_candidate": {
+    "drug": "Sildenafil",
+    "is_parent_approved_drug": true,
+    "smiles": "CCCc1nn(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)nc12",
+    "target": "PDE5A",
+    "affinity_surrogate_pKi": 11.0,
+    "affinity_is_surrogate": true,
+    "descriptors": {
+      "MW": 474.6,
+      "logP": 1.61,
+      "HBD": 1,
+      "HBA": 7,
+      "TPSA": 113.4,
+      "RotB": 7,
+      "QED": 0.553,
+      "SA_score": 2.74
+    },
+    "admet_pass": true,
+    "admet_failed_rules": [],
+    "structural_alerts": [],
+    "clinical_feasibility": 0.855,
+    "clinical_risk": "낮음",
+    "clinical_notes": "라벨 확장 / 기존 안전성·PK 활용 (신규 IND 불필요 가능성). QED=0.553, 구조경보 0건. 대상 타깃 PDE5A.",
+    "hypothesis_confidence": 0.588,
+    "overall_score": 0.78
+  },
+  "trace": [
+    {
+      "iteration": 0,
+      "n_hypotheses": 1,
+      "top_hits": [
+        "Sildenafil"
+      ],
+      "n_scored": 5,
+      "n_survivors": 5,
+      "converged": true,
+      "success": true,
+      "critic": "수렴: 'Sildenafil'가 모든 게이트를 통과하고 임상 타당성 0.855 확보."
+    }
+  ],
+  "ledger_path": "/mnt/c/dev/orpheus/orpheus/artifacts/1c5512aea1ed/ledger.jsonl"
+}

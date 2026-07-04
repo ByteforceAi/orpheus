@@ -1,0 +1,55 @@
+{
+  "run_id": "2c9a523bf26d",
+  "mode": "offline-deterministic",
+  "model": "claude-sonnet-4-6",
+  "disease": "Gout Flare",
+  "disease_targets": [
+    "NLRP3",
+    "TUBB",
+    "XDH"
+  ],
+  "iterations": 1,
+  "status": "converged",
+  "converged": true,
+  "best_candidate": {
+    "drug": "Colchicine",
+    "is_parent_approved_drug": true,
+    "smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1C(NC(C)=O)CC2",
+    "target": "TUBB",
+    "affinity_surrogate_pKi": 9.9,
+    "affinity_is_surrogate": true,
+    "descriptors": {
+      "MW": 399.4,
+      "logP": 2.87,
+      "HBD": 1,
+      "HBA": 6,
+      "TPSA": 83.1,
+      "RotB": 5,
+      "QED": 0.833,
+      "SA_score": 2.92
+    },
+    "admet_pass": true,
+    "admet_failed_rules": [],
+    "structural_alerts": [],
+    "clinical_feasibility": 0.883,
+    "clinical_risk": "낮음",
+    "clinical_notes": "라벨 확장 / 기존 안전성·PK 활용 (신규 IND 불필요 가능성). QED=0.833, 구조경보 0건. 대상 타깃 TUBB.",
+    "hypothesis_confidence": 0.85,
+    "overall_score": 0.8341
+  },
+  "trace": [
+    {
+      "iteration": 0,
+      "n_hypotheses": 1,
+      "top_hits": [
+        "Colchicine"
+      ],
+      "n_scored": 5,
+      "n_survivors": 5,
+      "converged": true,
+      "success": true,
+      "critic": "수렴: 'Colchicine'가 모든 게이트를 통과하고 임상 타당성 0.883 확보."
+    }
+  ],
+  "ledger_path": "/mnt/c/dev/orpheus/orpheus/artifacts/2c9a523bf26d/ledger.jsonl"
+}

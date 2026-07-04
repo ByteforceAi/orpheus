@@ -1,0 +1,10 @@
+{
+  "_comment": "Gold-standard drug-repurposing successes (drug -> NEW indication distinct from original). Used ONLY by the evaluator, and held out from the agents. Each pair has a mechanistic target overlap with the disease's associated targets, so a correct system should re-discover the drug from disease targets alone. All examples are textbook-documented public knowledge.",
+  "pairs": [
+    {"drug": "Sildenafil",   "disease": "Pulmonary Arterial Hypertension",      "shared_target": "PDE5A",   "reference": "PDE5 inhibitor repurposed from erectile dysfunction to PAH (Revatio)."},
+    {"drug": "Thalidomide",  "disease": "Multiple Myeloma",                     "shared_target": "CRBN",    "reference": "Cereblon-binding immunomodulator repurposed from sedative to multiple myeloma."},
+    {"drug": "Propranolol",  "disease": "Infantile Hemangioma",                 "shared_target": "ADRB2",   "reference": "Non-selective beta-blocker repurposed from hypertension to infantile hemangioma."},
+    {"drug": "Aspirin",      "disease": "Cardiovascular Thrombosis Prevention", "shared_target": "PTGS1",   "reference": "COX-1 inhibitor repurposed from analgesic to antiplatelet cardiovascular prophylaxis."},
+    {"drug": "Ketoconazole", "disease": "Cushing Syndrome",                     "shared_target": "CYP17A1", "reference": "Antifungal repurposed to inhibit adrenal steroidogenesis in Cushing syndrome."}
+  ]
+}
