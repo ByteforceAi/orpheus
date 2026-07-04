@@ -1,3 +1,14 @@
+---
+title: ORPHEUS
+emoji: 🎼
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+---
+
 # ORPHEUS 🎼
 
 **O**rphan-disease **R**epurposing via **P**lanning · **H**ypothesis · **E**valuation · **U**pdating **S**ystem
